@@ -1,0 +1,11 @@
+#RocketMQ配置
+rocketmq:
+  map:
+    order:
+      group: jackmanwu-test
+      address: master:9876
+      topic: jackmanwu-topic
+    product:
+      group: jackmanwu-test-11
+      address: master:9876
+      topic: jackmanwu-topic-11
